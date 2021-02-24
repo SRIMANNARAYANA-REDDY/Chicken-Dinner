@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback form</title>
+<link rel="shortcut icon" type="image/x-icon" href="feedback.png" />
+<link rel="stylesheet" type="text/css" href="feedback.css">
+</head>
+<body>
+<div class="container">
+  <div style="text-align:left">
+    <h1>Feedback Form</h1>
+  </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="thankyou.html">
+        <label for="fname"><b>Name:*</b></label>
+        <input type="text" id="fname" name="name" placeholder="Enter your name..">
+        <label for="phnno"><b>Phone Number:*</b></label>
+        <input type="text" id="phnno" name="phonenumber" placeholder="Enter your mobile number.">
+        <label for="EmailAddress"><b>Email address:</b></label>
+        <input type="email" id="EmailAddress" name="emailaddress" placeholder="Enter your email(optional)."><br/>
+	<label  id="FoodQuaity" for="FoodQuality">
+         <b>Food Quality:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="FoodQuality">
+          <div  data-component="radio">
+            <span>
+              <input type="radio"  id="FoodQuality" name="foodQuality" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="FoodQuality" name="foodQuality" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="FoodQuality" name="foodQuality" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="FoodQuality" name="foodQuality" value="Dissatisfied" required="" />
+              <label> Dissatisfied </label><br>
+            </span>
+          </div>
+        </div>
+        <label  id="OverallServiceQuality" for="OverallServiceQuality">
+          <b>Overall Service Quality:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="OverallServiceQuality" >
+          <div   data-component="radio">
+            <span>
+              <input type="radio"  id="OverallServiceQuality" name="overallService" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallServiceQuality" name="overallService" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallServiceQuality" name="overallService" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallServiceQuality" name="overallService" value="Dissatisfied" required="" />
+              <label> Dissatisfied </label><br>
+            </span>
+          </div>
+        </div>
+      
+        <label  id="Cleanliness" for="Cleanliness">
+          <b>Cleanliness:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="Cleanliness" >
+          <div   data-component="radio">
+            <span>
+              <input type="radio"  id="Cleanliness" name="cleanliness" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="Cleanliness" name="cleanliness" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="Cleanliness" name="cleanliness" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="Cleanliness" name="cleanliness" value="Dissatisfied" required="" />
+              <label> Dissatisfied </label><br>
+            </span>
+          </div>
+        </div>
+      
+        <label  id="OrderAccuracy" for="OrderAccuracy">
+          </b>Order Accuracy:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id=" OrderAccuracy" >
+          <div   data-component="radio">
+            <span>
+              <input type="radio"  id="OverallExperience" name="orderAccuracy" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallExperience" name="orderAccuracy" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallExperience" name="orderAccuracy" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="OverallExperience" name="orderAccuracy" value="Dissatisfied" required="" />
+              <label> Dissatisfied </label><br>
+            </span>
+          </div>
+        </div>
+      
+        <label  id="SpeedofService" for="SpeedofServic">
+          <b>Speed of Service:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="SpeedofService">
+          <div data-component="radio">
+            <span>
+              <input type="radio"  id="SpeedofService" name="speedOf" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="1" name="speedOf" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span>
+              <input type="radio"  id="SpeedofService" name="speedOf" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span><input type="radio"  id="SpeedofService" name="speedOf" value="Dissatisfied" required="" />
+              <label> Dissatisfied </label><br>
+            </span>
+          </div>
+        </div>
+        <label  id="Value" for="Value">
+         <b> Value:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="Value" >
+          <div  data-component="radio">
+            <span><input type="radio"  id="Value" name="Value" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span><input type="radio"  id="Value" name="Value" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span><input type="radio"  id="Value" name="Value" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span><input type="radio"  id="Value" name="Value" value="Dissatisfied" required="" />
+              <label>Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+        <label  id="OverallExperience" for="Overall Experience">
+          <b>Overall Experience:</b>
+          <span>*</span><br><br>
+        </label>
+        <div id="OverallExperience" >
+          <div  data-component="radio">
+            <span><input type="radio"  id="OverallExperience" name="overallExperience" value="Excellent" required="" />
+              <label> Excellent </label><br>
+            </span>
+            <span><input type="radio"  id="OverallExperience" name="overallExperience" value="Good" required="" />
+              <label> Good </label><br>
+            </span>
+            <span><input type="radio"  id="OverallExperience" name="overallExperience" value="Average" required="" />
+              <label> Average </label><br>
+            </span>
+            <span><input type="radio"  id="OverallExperience" name="overallExperience" value="Dissatisfied" required="" />
+              <label id=> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+        <label><b> Any comments, questions or suggestions? </b></label>
+        <div id="subject">
+       <textarea id="subject"style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
